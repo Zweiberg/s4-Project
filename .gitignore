@@ -129,4 +129,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# /assets
+# /assets/
+assets/images/3rY0GtUU_400x400.jpg
+assets/images/notification.svg

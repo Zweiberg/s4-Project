@@ -40,3 +40,15 @@ input{
     width: 2.5rem;
     border-radius: 100%;
 }
+.main-section{
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid red;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.red{
+    color: red;
+}
