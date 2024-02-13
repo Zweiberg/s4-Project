@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+    padding: 1rem;
+}
+body{
+    font-size: 1.3rem;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+.nav-bar a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #555;
+    margin: 0 1rem;
+}
+.nav-bar a:hover{
+    color: #d30000;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+input{
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+}
+.search-icon{
+    font-size: 1rem;
+    margin-left: -2.5rem;
+}
+
+.search #profil-photo {
+    border: 1px solid #d30000;
+    width: 2.5rem;
+    border-radius: 100%;
+}
