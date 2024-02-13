@@ -2,6 +2,9 @@ h1 {
     color: red;
     padding: 1rem;
 }
+h4{
+    text-transform: uppercase;
+}
 body{
     font-size: 1.3rem;
 }
@@ -48,7 +51,87 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+}
+.main-section h2{
+    font-size: 3rem;
+    font: bold;
+    margin: 1.5rem 0;
+}
+.age-restriction{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 0 1rem;
+}
+.rating-container{
+    color: red;
+}
+.details-container p{
+    margin:0;
+    padding-left: 0;
+    padding-bottom: 0.5rem;
+}
+.gray{
+    color: #3b3b3b;
 }
 .red{
-    color: red;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.btn{
+    background-color: #d30000;
+    color: white;
+    display: inline-block;
+    border: 1px solid #d30000;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+}
+.btn-m{
+    font-size: small;
+    background-color: #d30000;
+    color: white;
+    display: inline-block;
+    border: 1px solid #d30000;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+}
+.btn > i{
+    margin-left: -0.2rem;
+    margin-right: 0.6rem;
+}
+.btn-m > i{
+    margin-left: -0.2rem;
+    margin-right: 0.6rem;
+}
+section{
+    margin: 1rem;
+}
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 30%;
+    aspect-ratio: 5/3;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+.age-mini-display{
+    border: 1px solid black;
+    border-radius: 8px;
+    /* padding: 3px; */
+    margin: 0 1rem 0 0;
 }
