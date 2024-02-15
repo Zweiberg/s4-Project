@@ -47,7 +47,7 @@ input{
     /* max-width: 50%; */
     margin: 1rem;
     padding: 2rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 70vh;
     display: flex;
     flex-direction: column;
@@ -127,7 +127,7 @@ section{
 .card{
     width: 30%;
     aspect-ratio: 5/3;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
